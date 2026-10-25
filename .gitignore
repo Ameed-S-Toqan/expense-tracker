@@ -1,0 +1,16 @@
+# Local database credentials - NEVER commit config.php
+/config.php
+
+# Operating system / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
