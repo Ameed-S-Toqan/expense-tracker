@@ -25,8 +25,7 @@ if (!function_exists('e')) {
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mainNavigation">
-            <ul class="navbar-nav ms-auto gap-lg-2">
-                <li class="nav-item"><a class="nav-link <?= $currentPage === 'expenses' ? 'active' : '' ?>" <?= $currentPage === 'expenses' ? 'aria-current="page"' : '' ?> href="index.php">Expenses</a></li>
+<ul class="navbar-nav ms-auto gap-lg-2" aria-label="Main navigation - Summary">                <li class="nav-item"><a class="nav-link <?= $currentPage === 'expenses' ? 'active' : '' ?>" <?= $currentPage === 'expenses' ? 'aria-current="page"' : '' ?> href="index.php">Expenses</a></li>
                 <li class="nav-item"><a class="nav-link <?= $currentPage === 'add' ? 'active' : '' ?>" <?= $currentPage === 'add' ? 'aria-current="page"' : '' ?> href="add_expense.php">Add Expense</a></li>
                 <li class="nav-item"><a class="nav-link <?= $currentPage === 'summary' ? 'active' : '' ?>" <?= $currentPage === 'summary' ? 'aria-current="page"' : '' ?> href="summary.php">Summary</a></li>
             </ul>
