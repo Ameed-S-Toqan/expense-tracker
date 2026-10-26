@@ -105,8 +105,7 @@ require dirname(__DIR__) . '/includes/header.php';
                     <div class="mb-4">
                         <label for="amount" class="form-label">Amount</label>
                         <div class="input-group">
-                            <span class="input-group-text">Amount</span>
-                            <input class="form-control <?= isset($errors['amount']) ? 'is-invalid' : '' ?>" id="amount" name="amount" type="number" min="0.01" max="99999999.99" step="0.01" placeholder="0.00" value="<?= e($amount) ?>" required aria-describedby="amount-feedback">
+<span class="input-group-text">ILS</span>                            <input class="form-control <?= isset($errors['amount']) ? 'is-invalid' : '' ?>" id="amount" name="amount" type="number" min="0.01" max="99999999.99" step="0.01" placeholder="0.00" value="<?= e($amount) ?>" required aria-describedby="amount-feedback">
                             <div class="invalid-feedback" id="amount-feedback"><?= e($errors['amount'] ?? 'Enter an amount greater than zero.') ?></div>
                         </div>
                     </div>
