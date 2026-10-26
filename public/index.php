@@ -1,5 +1,3 @@
-<?php this_is_an_intentional_error(); ?>
-
 <?php
 declare(strict_types=1);
 require_once dirname(__DIR__) . '/includes/db.php';
