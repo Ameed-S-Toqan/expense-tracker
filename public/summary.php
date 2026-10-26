@@ -39,8 +39,7 @@ require dirname(__DIR__) . '/includes/header.php';
             </div>
             <div class="summary-total">
                 <span class="small text-secondary d-block">Total spending</span>
-                <span class="h3 fw-bold mb-0"><?= number_format($grandTotal, 2) ?></span>
-            </div>
+<span class="h3 fw-bold mb-0"><?= number_format($grandTotal, 2) ?> ILS</span>            </div>
         </div>
 
         <?php if ($grandTotal <= 0): ?>
@@ -62,8 +61,7 @@ require dirname(__DIR__) . '/includes/header.php';
                             <h3 class="h6 fw-bold mb-1"><?= e($row['name']) ?></h3>
                             <span class="small text-secondary"><?= number_format($percentage, 1) ?>% of total</span>
                         </div>
-                        <span class="fw-bold text-nowrap"><?= number_format($categoryTotal, 2) ?></span>
-                    </div>
+<span class="fw-bold text-nowrap"><?= number_format($categoryTotal, 2) ?> ILS</span>                    </div>
                     <div class="progress" role="progressbar" aria-label="<?= e($row['name']) ?> spending share" aria-valuenow="<?= number_format($barWidth, 1, '.', '') ?>" aria-valuemin="0" aria-valuemax="100">
                         <div class="progress-bar" style="width: <?= number_format($barWidth, 4, '.', '') ?>%"></div>
                     </div>
@@ -73,7 +71,6 @@ require dirname(__DIR__) . '/includes/header.php';
     </div>
     <div class="card-footer total-footer px-4 px-md-5 py-3 d-flex justify-content-between align-items-center">
         <span class="text-secondary fw-semibold">Total expenses</span>
-        <span class="h4 fw-bold mb-0"><?= number_format($grandTotal, 2) ?></span>
-    </div>
+<span class="h4 fw-bold mb-0"><?= number_format($grandTotal, 2) ?> ILS</span>    </div>
 </section>
 <?php require dirname(__DIR__) . '/includes/footer.php'; ?>
