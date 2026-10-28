@@ -1,31 +1,28 @@
-# Individual Report — Role A
-
-**Student:** Hoor Smeirat  
-**Role:** Frontend and documentation
-
-## Files I worked on
-- `includes/header.php`
-- `includes/footer.php`
-- `public/assets/css/style.css`
-- `.gitignore`
-- `README.md`
-
-## My contribution
-Describe the actual layout, responsive styling, shared navigation/footer, documentation and repository hygiene work completed.
-
-## Commit evidence
-Add real commit hashes, messages and dates from GitHub. Do not invent history.
-
-## Merge conflict
-Insert a screenshot of the actual conflict before resolution and another screenshot of the resolved navbar. Explain your role in the resolution.
-
-## Revert exercise
-Insert a screenshot of the faulty commit and revert evidence. Explain how you verified that the home page worked again.
-
-## Challenge and reflection
-Describe the hardest collaboration issue and how the team resolved it.
-
-## Final checks
-- [ ] Converted to `report/A.docx`
-- [ ] Screenshots are genuine
-- [ ] Claims match the GitHub history
+EXPENSE TRACKER
+تقرير فردي | Individual Contribution Report
+الطالب / Student	عميد طوقان — Ameed Toqan
+الدور / Role	A — الواجهة الأمامية والتوثيق
+المشروع / Project	Expense Tracker — PHP / MySQL
+المستودع / Repository	github.com/Ameed-S-Toqan/expense-tracker
+١. دوري في المشروع والملفات التي عملت عليها
+تولّيت إعداد الأجزاء المشتركة من واجهة التطبيق وتنسيقها، وتنظيم ملف README لشرح المشروع وخطوات تشغيله، وإعداد .gitignore لاستبعاد ملف config.php المحلي. كما شاركت في تنسيق العمل بين نسخ المشروع، وحل تعارض ملف header.php، وتنفيذ التراجع عن الـ Commit الخاطئ بعد رفعه.
+• includes/header.php
+• includes/footer.php
+• public/assets/css/style.css
+• .gitignore
+• README.md
+٢. التعاون باستخدام Git وGitHub
+استخدم الفريق GitHub لإنشاء المستودع وإدارة صلاحيات التعاون ومراجعة سجل التغييرات، واستخدم GitHub Desktop فعليًا لتنفيذ Clone وFetch وPull وCommit وPush وUndo Commit وRevert ومتابعة التعارضات. أما كتابة الكود فكانت باستخدام VS Code، وتشغيل التطبيق باستخدام WAMP وphpMyAdmin. عمل كل عضو على نسخة محلية منفصلة وبهوية GitHub الخاصة به.
+٣. تجربة Merge Conflict
+أجرى الفريق تعارضًا حقيقيًا في الملف includes/header.php بعد تعديل منطقة شريط التنقل من أكثر من نسخة. تمت مراجعة علامات التعارض وحلّها مع الحفاظ على روابط Expenses وAdd Expense وSummary، ثم التحقق من عمل التنقل.
+٤. تجربة الخطأ المقصود وGit Revert
+أضاف العضو B خطأً مقصودًا إلى public/index.php ثم رفع Commit بعنوان Update expenses page ورقمه المختصر 5e0b55f. سحب العضوان A وC التعديل وحددا سبب الخلل، واستخدم العضو A خيار Revert في GitHub Desktop للتراجع عن أثر الخطأ دون حذف سجل الـ Commits. بعد ذلك تمت مزامنة نسخ الفريق والتحقق من استعادة الصفحة.
+٥. أصعب تحدٍ وكيف تم التعامل معه
+كان من أبرز تحديات العمل دمج تعديلات متزامنة على شريط التنقل دون فقدان روابط الصفحات. تعاملنا مع ذلك بمراجعة مواضع التعارض والاحتفاظ بالتعديلات المطلوبة ثم اختبار الروابط. ومن التحديات كذلك إعادة التطبيق إلى وضع يعمل بعد رفع خطأ مقصود، وتم ذلك باستخدام Git Revert مع الاحتفاظ بسجل العمل.
+٦. الاختبار والنتيجة
+تم تشغيل التطبيق محليًا باستخدام WAMP، واستيراد قاعدة البيانات، وتجربة إضافة مصروف وعرضه، ورفض قيمة سالبة، وعرض ملخص المصاريف. ولا تعني هذه الاختبارات اكتمال جميع حالات التحقق المدرجة في README.
+٧. أدلة العمل (صور حقيقية تُدرج قبل التسليم)
+الصورة 1: لقطة فعلية من تعارض includes/header.php قبل الحل — [أدرج الصورة هنا].
+الصورة 2: لقطة الملف بعد حل التعارض أو سجل Git الذي يوضح الدمج — [أدرج الصورة هنا].
+الصورة 3: لقطة سجل Git للـ Commit الخاطئ وعملية Revert — [أدرج الصورة هنا].
+تنبيه: لم تُدرج صور غير موثقة. يجب على الطالب إضافة لقطات الشاشة الحقيقية ومراجعة وصف التحدي الشخصي قبل تسليم التقرير.
