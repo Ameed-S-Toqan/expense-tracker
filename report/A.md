@@ -1,28 +1,77 @@
-EXPENSE TRACKER
-تقرير فردي | Individual Contribution Report
-الطالب / Student	عميد طوقان — Ameed Toqan
-الدور / Role	A — الواجهة الأمامية والتوثيق
-المشروع / Project	Expense Tracker — PHP / MySQL
-المستودع / Repository	github.com/Ameed-S-Toqan/expense-tracker
-١. دوري في المشروع والملفات التي عملت عليها
-تولّيت إعداد الأجزاء المشتركة من واجهة التطبيق وتنسيقها، وتنظيم ملف README لشرح المشروع وخطوات تشغيله، وإعداد .gitignore لاستبعاد ملف config.php المحلي. كما شاركت في تنسيق العمل بين نسخ المشروع، وحل تعارض ملف header.php، وتنفيذ التراجع عن الـ Commit الخاطئ بعد رفعه.
-• includes/header.php
-• includes/footer.php
-• public/assets/css/style.css
-• .gitignore
-• README.md
-٢. التعاون باستخدام Git وGitHub
-استخدم الفريق GitHub لإنشاء المستودع وإدارة صلاحيات التعاون ومراجعة سجل التغييرات، واستخدم GitHub Desktop فعليًا لتنفيذ Clone وFetch وPull وCommit وPush وUndo Commit وRevert ومتابعة التعارضات. أما كتابة الكود فكانت باستخدام VS Code، وتشغيل التطبيق باستخدام WAMP وphpMyAdmin. عمل كل عضو على نسخة محلية منفصلة وبهوية GitHub الخاصة به.
-٣. تجربة Merge Conflict
-أجرى الفريق تعارضًا حقيقيًا في الملف includes/header.php بعد تعديل منطقة شريط التنقل من أكثر من نسخة. تمت مراجعة علامات التعارض وحلّها مع الحفاظ على روابط Expenses وAdd Expense وSummary، ثم التحقق من عمل التنقل.
-٤. تجربة الخطأ المقصود وGit Revert
-أضاف العضو B خطأً مقصودًا إلى public/index.php ثم رفع Commit بعنوان Update expenses page ورقمه المختصر 5e0b55f. سحب العضوان A وC التعديل وحددا سبب الخلل، واستخدم العضو A خيار Revert في GitHub Desktop للتراجع عن أثر الخطأ دون حذف سجل الـ Commits. بعد ذلك تمت مزامنة نسخ الفريق والتحقق من استعادة الصفحة.
-٥. أصعب تحدٍ وكيف تم التعامل معه
-كان من أبرز تحديات العمل دمج تعديلات متزامنة على شريط التنقل دون فقدان روابط الصفحات. تعاملنا مع ذلك بمراجعة مواضع التعارض والاحتفاظ بالتعديلات المطلوبة ثم اختبار الروابط. ومن التحديات كذلك إعادة التطبيق إلى وضع يعمل بعد رفع خطأ مقصود، وتم ذلك باستخدام Git Revert مع الاحتفاظ بسجل العمل.
-٦. الاختبار والنتيجة
-تم تشغيل التطبيق محليًا باستخدام WAMP، واستيراد قاعدة البيانات، وتجربة إضافة مصروف وعرضه، ورفض قيمة سالبة، وعرض ملخص المصاريف. ولا تعني هذه الاختبارات اكتمال جميع حالات التحقق المدرجة في README.
-٧. أدلة العمل (صور حقيقية تُدرج قبل التسليم)
-الصورة 1: لقطة فعلية من تعارض includes/header.php قبل الحل — [أدرج الصورة هنا].
-الصورة 2: لقطة الملف بعد حل التعارض أو سجل Git الذي يوضح الدمج — [أدرج الصورة هنا].
-الصورة 3: لقطة سجل Git للـ Commit الخاطئ وعملية Revert — [أدرج الصورة هنا].
-تنبيه: لم تُدرج صور غير موثقة. يجب على الطالب إضافة لقطات الشاشة الحقيقية ومراجعة وصف التحدي الشخصي قبل تسليم التقرير.
+Individual Report — Role A
+
+التقرير الفردي — العضو A
+
+Student / الطالب: Ameed Toqan — عميد طوقان
+Role / الدور: Frontend & Documentation — الواجهة الأمامية والتوثيق
+GitHub: Ameed-S-Toqan
+
+Files I worked on | الملفات التي عملت عليها
+
+includes/header.php
+
+includes/footer.php
+
+public/assets/css/style.css
+
+.gitignore
+
+README.md
+
+My contribution | مساهمتي في المشروع
+
+I developed the shared layout and navigation, worked on CSS styling, maintained project documentation, and coordinated the GitHub repository.
+
+طوّرت الأجزاء المشتركة من الواجهة وشريط التنقل، وعملت على تنسيقات CSS وتوثيق المشروع وتنسيق إدارة المستودع على GitHub.
+
+Commit evidence | إثباتات الـ Commits
+
+Insert verified commit hashes, messages, dates, and screenshots from GitHub / GitHub Desktop for my assigned files.
+
+يُضاف هنا معرّف كل Commit حقيقي ورسالته وتاريخه وصورته من GitHub أو GitHub Desktop للملفات الخاصة بي.
+
+Commit hash / المعرّف: __________________    Date / التاريخ: ______________
+
+Merge conflict | تجربة تعارض الدمج
+
+The team independently edited the navigation section in includes/header.php. We used GitHub Desktop to integrate changes and resolve the real conflict while preserving Expenses, Add Expense, and Summary.
+
+عدّل أعضاء الفريق جزء التنقل نفسه في ملف includes/header.php بصورة مستقلة. واستخدمنا GitHub Desktop لدمج التعديلات وحل التعارض الحقيقي مع الحفاظ على روابط Expenses وAdd Expense وSummary.
+
+Evidence: insert a genuine screenshot before resolution and a screenshot of the resolved navigation.
+
+الإثبات: أضف صورة حقيقية للتعارض قبل الحل وصورة لشريط التنقل بعد الحل.
+
+[Merge conflict screenshot / صورة التعارض]
+
+[Resolved navbar screenshot / صورة الحل]
+
+Faulty commit and revert | الخطأ المقصود والتراجع عنه
+
+Role B pushed an intentional faulty change in public/index.php. I used GitHub Desktop to revert that commit and restore the working page.
+
+رفع العضو B تعديلًا خاطئًا مقصودًا في public/index.php. استخدمت GitHub Desktop لتنفيذ Revert واستعادة الصفحة السليمة.
+
+Faulty commit / Commit الخطأ: 5e0b55f — Update expenses page
+
+Revert commit hash / معرّف Commit التراجع: __________________
+
+[Faulty commit screenshot / صورة Commit الخطأ]
+
+[Revert screenshot / صورة Revert]
+
+Challenge and reflection | التحدي والدروس المستفادة
+
+My challenge was integrating overlapping navigation changes without losing any required links. We reviewed the conflicting changes in GitHub Desktop and tested the resolved navigation.
+
+كان التحدي دمج التعديلات المتعارضة في شريط التنقل دون فقدان أي رابط. راجعنا التغييرات باستخدام GitHub Desktop واختبرنا التنقل بعد الحل.
+
+Final checks | التحقق قبل التسليم
+
+[ ] Real screenshots inserted / إضافة صور حقيقية
+
+[ ] Commit details verified / التحقق من بيانات Commits
+
+[ ] Personal reflection reviewed / مراجعة وصف التحدي الشخصي
+
+[ ] Claims match GitHub history / مطابقة المحتوى مع سجل GitHub
